@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuestionActivity"
+    android:background="@color/light_blue">
+
+    <TextView
+        android:id="@+id/question_page_top"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="10dp"
+        android:text="@string/question_page_top"
+        android:background="@color/white"
+        android:textColor="@color/light_blue"
+        android:textSize="35sp"
+        android:paddingStart="10dp" />
+
+    <TextView
+        android:id="@+id/question_picker_text"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/question_page_top"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="@string/question_picker"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:id="@+id/question_picker_spinner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/question_picker_text"
+        android:background="@color/white">
+
+        <Spinner
+            android:id="@+id/question_picker_spinner"
+            style="@style/Widget.AppCompat.DropDownItem.Spinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:entries="@array/questions"
+            android:gravity="center_horizontal"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+
+    <ScrollView
+        android:id="@+id/question_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question_picker_spinner_container"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:id="@+id/answer_container_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+    <TextView
+        android:id="@+id/specific_cal_des"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/question_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="@string/method_des"
+        android:textColor="@color/black"
+        android:textSize="27sp" />
+
+    <LinearLayout
+        android:id="@+id/cal_des"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_below="@id/specific_cal_des"
+        android:orientation="horizontal" >
+        <Spinner
+            android:id="@+id/method_des_select"
+            style="@style/Widget.AppCompat.DropDownItem.Spinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:entries="@array/uni_array"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/method_image"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/cal_des"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:contentDescription="@string/image_shows_how_to_calculate"
+        android:scaleType="fitXY"/>
+
+
+
+
+
+    <TextView
+        android:id="@+id/more_question"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/method_image"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="@string/more_question"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/email_button"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_below="@id/more_question"
+        android:background="@drawable/email_button"
+        android:text="@string/email"
+        android:textColor="@color/black"
+        />
+
+
+</RelativeLayout>

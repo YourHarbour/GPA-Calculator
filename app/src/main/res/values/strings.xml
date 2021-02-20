@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">GPA-Calculator</string>
+    <string name="name">GPA-Calculator</string>
+    <string name="Do_not_show_next_time">Don\'t show again.</string>
+    <string name="already_read">Got it !</string>
+    <string name="uni_selector">Choose your uni calculate method : </string>
+    <string name="sub_code">Sub Code</string>
+    <string name="Subject">Subject Code</string>
+    <string name="score">Score</string>
+    <string name="credit">Credit</string>
+    <string name="delete_the_line">Delete</string>
+    <string name="cannot_delete">1st Line can not be deleted</string>
+    <string name="have_choose">You have choose : </string>
+    <string name="cau_method"> calculate method.</string>
+    <string name="delete_all">Delete All</string>
+    <string name="question_picker">Please choose your question :</string>
+    <string name="question_page_top">Question &amp; About</string>
+    <string name="more_question">Have other questions ?</string>
+    <string name="email">Email to ask !</string>
+    <string name="link1" translatable="false"><a href="https://icons8.com/icons/set/question-mark">Question Mark Icon Source</a></string>
+    <string name="link2" translatable="false"><a href="https://icons8.com/icons/set/calculator">Calculator Icon Source</a></string>
+    <string name="link3" translatable="false"><a href="https://icons8.com/icons/set/unchecked-checkbox">CheckBox Icon Source</a></string>
+    <string name="link4" translatable="false"><a href="https://icons8.com/icons/set/plus-math">Plus Icon Source</a></string>
+    <string name="help_name" translatable="false">天在水，Sam</string>
+    <string name="save_func_dev">Developing now ! Not support yet.</string>
+    <string name="more_place">More universities will be supported soon !</string>
+    <string name="accurate_answer">  Since every university has a different GPA calculation method, the results provided by this program are for reference only and cannot be used as valid provements. At the same time, due to constant changes in calculation methods, unupdated algorithms may provide incorrect results.</string>
+    <string name="method_des">Calculation method introduction:</string>
+    <string name="image_shows_how_to_calculate">Image shows how to calculate.</string>
+    <string name="result_page">Your Result</string>
+    <string name="add_button_demo">Click here to add a new line</string>
+    <string name="calculate_button_demo">Click here to get your GPA</string>
+    <string name="questions_demo">Questions? Click here!</string>
+    <string name="welcome" translatable="false">Welcome</string>
+    <string name="to" translatable="false">To</string>
+
+
+    <string-array name="uni_array">
+        <item> Australia New South Wales </item>
+        <item> Australia University of Melbourne </item>
+        <item> China 百分制(标准4.0) </item>
+    </string-array>
+
+    <string-array name="questions">
+        <item>Special Thanks</item>
+        <item>How to use ?</item>
+        <item>How to save result ?</item>
+        <item>Is the result accurate enough ?</item>
+        <item>Where are other calculate methods ?</item>
+    </string-array>
+
+</resources>

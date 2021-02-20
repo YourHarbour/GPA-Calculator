@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GPA_CAL</string>
+    <string name="Do_not_show_next_time">下次启动不再显示</string>
+    <string name="already_read">好的</string>
+    <string name="uni_selector">选择你的计算方式</string>
+    <string name="Subject">科目代码</string>
+    <string name="score">分数</string>
+    <string name="credit">学分</string>
+    <string name="delete_the_line">删除</string>
+    <string name="cannot_delete">第一行无法删除</string>
+    <string name="have_choose">已选择</string>
+    <string name="cau_method">计算方式</string>
+    <string name="sub_code">科目代码</string>
+    <string name="name">GPA计算器</string>
+    <string name="delete_all">全部删除</string>
+    <string name="question_picker">请选择你的问题：</string>
+    <string name="question_page_top">问题集&amp;关于软件</string>
+    <string name="more_question">有其他的问题？</string>
+    <string name="email">邮件问答</string>
+    <string name="save_func_dev">正在开发，请谅解</string>
+    <string name="accurate_answer">由于每一所大学都有不同的GPA计算方式，所以该程序提供的结果仅供参考，无法作为有效证明文件。同时由于计算方式的不断改变，未更新的算法有可能提供错误的结果。</string>
+    <string name="more_place">即将支持更多的大学！</string>
+    <string name="method_des">计算方式介绍：</string>
+    <string name="image_shows_how_to_calculate">展示如何计算的图片</string>
+    <string name="result_page">你的GPA</string>
+    <string name="add_button_demo">点击这个按钮即可增加一行输入框</string>
+    <string name="calculate_button_demo">点击这里，计算你的学分</string>
+    <string name="questions_demo">有问题？点这里！</string>
+</resources>
